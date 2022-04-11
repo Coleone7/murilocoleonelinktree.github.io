@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(219,167,177);
+    background: linear-gradient(146deg, rgba(219,167,177,1) 0%, rgba(220,20,60,1) 37%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.avatar{
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-media{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.social-media img{
+    width: 33px;
+    margin: 0 5px;
+}
+
+.link-list li{
+    background-color: black;
+    border: 5px solid white;
+    box-shadow: 0 0 20px white;
+    border-radius: 10px;
+    margin: 10px 5px ;
+}
+
+.link-list a {
+    text-decoration: none;
+}
+
+.link-list h3{
+    color: rgba(220,20,60,1);
+    font-size: 27px;
+    font-weight: 400;
+    padding: 10px 10px;
+   
+}
+
+.link-list p{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px 10px;
+}
+
